@@ -1,6 +1,7 @@
 import React from "react";
 import { FaRegUserCircle } from "react-icons/fa";
 
+
 function AnswerDetail({ answer }) {
   return (
     <div className="header_question">
@@ -10,6 +11,7 @@ function AnswerDetail({ answer }) {
       </div>
       <div className="question_title" style={{ height: "80%" }}>
         <div> {answer ? answer.answer : "New Answer"}</div>
+        
       </div>
     </div>
   );

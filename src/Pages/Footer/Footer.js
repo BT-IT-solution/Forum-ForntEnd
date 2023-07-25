@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../Source/img/evangadi-logo-footer.png";
 import { BsFacebook, BsYoutube, BsInstagram } from "react-icons/bs";
 
+
 function Footer() {
   return (
     <div className='items-center'>
@@ -64,11 +65,11 @@ function Footer() {
             </a>
           </ul>
         </div>
-      </div>
-      
+      </div> 
     </footer>
     </div>
   );
 }
+
 
 export default Footer;

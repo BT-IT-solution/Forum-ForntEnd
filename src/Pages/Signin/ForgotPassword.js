@@ -73,6 +73,7 @@ function ForgotPassword({ showSignIn, showSignUp }) {
                 <h5 className="auth-title">
                   Unfortunatlly You Can't Use This Future right now Please Register Again
                 </h5>
+                
               </div>
             </div>
           )}

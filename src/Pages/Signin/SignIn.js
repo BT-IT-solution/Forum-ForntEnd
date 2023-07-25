@@ -8,9 +8,7 @@ import { UserContext } from "../../Context/UserContext";
 import Login from "./Login";
 //import SignUp from "../SignUp/SignUp";
 import SignUp from "../SignUp/SignUp"
-//import ForgotPassword from "./ForgotPassword";
 import ForgotPassword from "./ForgotPassword";
-//import './Signin.css'
 import './Signin.css'
 
 function SignIn() {

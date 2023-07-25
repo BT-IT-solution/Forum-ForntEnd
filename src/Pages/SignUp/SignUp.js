@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Axios from "../../axios";
 import { UserContext } from "../../Context/UserContext";
 
+
 const SignUp = ({ showSignIn }) => {
   const [form, setForm] = useState({});
   const navigate = useNavigate();
@@ -24,8 +25,6 @@ const SignUp = ({ showSignIn }) => {
         email: form.email,
         password: form.password,
       });
-
-      
       setUserData({
         token: loginRes.data.token,
         user: loginRes.data.user,

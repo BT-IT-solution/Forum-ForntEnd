@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import Logo from  "../../Source/img/evangadi-logo-home.png";
 import { UserContext } from "../../Context/UserContext";
 import './Header.css'
+
 const Header = () => {
   const [userData, setUserData] = useContext(UserContext);
 
@@ -65,6 +66,7 @@ const Header = () => {
                     onClick={logout}
                   >
                     {userData.user ? `Log Out` : `Sign In`}
+                    
                   </a>
                 </div>
               </li>
